@@ -1,0 +1,22 @@
+.title {
+  background-image: linear-gradient(
+    45deg,
+    blue,
+    rgb(19, 19, 241),
+    rgb(4, 4, 233)
+  );
+  background-size: 300% 300%;
+  animation: titlecolor 15s ease infinite;
+}
+
+@keyframes titlecolor {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
