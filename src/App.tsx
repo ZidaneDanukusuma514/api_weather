@@ -1,6 +1,6 @@
 import * as React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import About from "./pages/About";
+import About from "./pages/about";
 import Home from "./pages/Home";
 
 export interface IAppProps {}

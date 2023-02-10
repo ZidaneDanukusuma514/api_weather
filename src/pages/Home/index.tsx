@@ -8,7 +8,7 @@ export default function Home(props: IHomeProps) {
       <h1
         className={`${style.title} text-3xl bg-clip-text text-transparent font-extrabold pb-6 `}
       >
-        Weather App
+        Weather <span className="text-4xl animate-pulse text-blue-700">.</span>
       </h1>
       <div className="rounded-xl shadow-lg bg-slate-100 w-2/3 h-3/4"></div>
     </div>
